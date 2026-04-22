@@ -1,0 +1,26 @@
+{
+  "_comment": "이 파일을 ~/.claude/settings.json 또는 프로젝트 .claude/settings.json 의 hooks 섹션에 병합하세요.",
+  "_comment2": "HOOKS_DIR 를 실제 hooks/ 설치 경로로 바꾸세요.",
+  "_install_note": "install.ps1 / install.sh 실행 시 자동으로 설정됩니다.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"{HOOKS_DIR}/legal_citation_nudge.py\""
+          },
+          {
+            "type": "command",
+            "command": "python3 \"{HOOKS_DIR}/legal_pii_guard.py\""
+          },
+          {
+            "type": "command",
+            "command": "python3 \"{HOOKS_DIR}/legal_case_folder_init.py\""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+# 개인정보 및 실제 사건 자료 (절대 커밋 금지)
+workspace/사건/
+workspace/자문/
+*.hwp
+*.docx
+*.pdf
+
+# 환경 설정
+.env
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 에디터
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 로그
+*.log
