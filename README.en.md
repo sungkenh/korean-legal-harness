@@ -42,7 +42,7 @@ with direct integration to Korean statute and case law databases via `korean-law
 ### Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/korean-legal-harness.git
+git clone https://github.com/sungkenh/korean-legal-harness.git
 cd korean-legal-harness
 powershell -ExecutionPolicy Bypass -File install.ps1
 ```
@@ -50,7 +50,7 @@ powershell -ExecutionPolicy Bypass -File install.ps1
 ### macOS / Linux
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/korean-legal-harness.git
+git clone https://github.com/sungkenh/korean-legal-harness.git
 cd korean-legal-harness
 bash install.sh
 ```
