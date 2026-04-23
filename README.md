@@ -1,7 +1,6 @@
 # Korean Legal Harness
 
-대한민국 법무법인·변호사를 위한 **Claude Code 하네스**입니다.  
-[슈퍼로이어(SuperLawyer)](https://superlawyer.co.kr)의 5대 기능축을 참고해 설계했으며,  
+대한민국 법무법인·변호사를 위한 **Claude Code 하네스**입니다.   
 `korean-law-mcp`를 통해 법제처·대법원 데이터에 직접 연결합니다.
 
 ---
